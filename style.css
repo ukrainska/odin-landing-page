@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sacramento&display=swap');
 
 
 * {
@@ -39,10 +39,6 @@
     margin-block: 50px;
 }
 
-.footer {
-    flex: 1;
-}
-
 .header,
 .cafe-info,
 .quote {
@@ -59,6 +55,13 @@
     border-radius: 18px;
 }
 
+.footer {
+    flex: 1;
+    background-color: #78594E;
+    width: 100%;
+    margin-top: 60px;
+}
+
 /*Header*/
 .header {
     display: flex;
@@ -72,7 +75,7 @@ ul {
 }
 
 #logo {
-    font-family: 'Bubblegum Sans', Quicksand, Arial, Helvetica, sans-serif;
+    font-family: Sacramento, Quicksand, Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
 }
@@ -149,6 +152,7 @@ h3 {
 
 /*Sign up part of the website*/
 .mocha-club {
+    flex: 1;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -170,4 +174,15 @@ h3 {
 {
     font-size: 22px;
     font-weight: 600;
+}
+
+/*Footer*/
+.footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
 }
