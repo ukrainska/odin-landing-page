@@ -26,13 +26,15 @@
     /*background-color: #73554B;*/
     width: 100%;
 }
+
 .coffee-variety {
     flex: 2;
 }
 
 .quote-part {
     flex: 1;
-    background-color: #E6B46C;
+    /*background-color: #E6B46C;*/
+    background-color: #F5E0C2;
     width: 100%;
     margin-block: 50px;
 }
@@ -40,7 +42,6 @@
 .footer {
     flex: 1;
 }
-
 
 .header,
 .cafe-info,
@@ -104,7 +105,7 @@ ul {
 }
 
 .join-us-button {
-    color: #E1D7D5;
+    color: #FFF;
     background-color: #946E65;
     font-size: 18px;
     border-radius: 30px;
@@ -143,4 +144,30 @@ h3 {
     font-size: 30px;
     font-style: italic;
     padding: 80px;
+    color: #78594E;
+}
+
+/*Sign up part of the website*/
+.mocha-club {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 70px;
+    background-color: #946E65;
+    border-radius: 18px;
+    color: #FFF;
+}
+
+.mocha-club-info {
+    flex-basis: 600px;
+}
+
+.mocha-club-info p{
+    padding-block: 5px;
+}
+
+#join-mocha-club
+{
+    font-size: 22px;
+    font-weight: 600;
 }
