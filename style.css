@@ -8,6 +8,7 @@
     padding: 0;
 }
 
+/*Main body settings*/
 .content {
     display: flex;
     align-items: center;
@@ -15,12 +16,26 @@
     height: 100vh;
     font-family: Quicksand, Arial, sans-serif;
     font-size: 18px;
+    color: #FFF;
 }
 
+.header-part {
+    background-color: #78594E;
+    /*background-color: #73554B;*/
+    width: 100%;
+}
+
+.header,
+.cafe-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+/*Header*/
 .header {
     display: flex;
     justify-content: space-between;
-    padding-block: 15px;
 }
 
 ul {
@@ -33,5 +48,42 @@ ul {
     font-family: 'Bubblegum Sans', Quicksand, Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
-
 }
+
+/*Last part of the header part with a picture*/
+.cafe-info{
+    display: flex;
+    gap: 40px;
+}
+
+.cafe-info img {
+    display: block;
+    min-width: 500px;
+    border-radius: 18px;
+}
+
+.join-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 500px;
+    gap: 20px;
+}
+
+.join-us span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.join-us-button {
+    color: #E1D7D5;
+    background-color: #946E65;
+    font-size: 18px;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #E1D7D5;
+    padding: 15px 30px;
+}
+
