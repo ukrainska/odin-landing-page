@@ -16,17 +16,35 @@
     height: 100vh;
     font-family: Quicksand, Arial, sans-serif;
     font-size: 18px;
+    overflow-x: scroll;
 }
 
 .header-part {
+    flex: 1;
     color: #FFF;
     background-color: #78594E;
     /*background-color: #73554B;*/
     width: 100%;
 }
+.coffee-variety {
+    flex: 2;
+}
+
+.quote-part {
+    flex: 1;
+    background-color: #E6B46C;
+    width: 100%;
+    margin-block: 50px;
+}
+
+.footer {
+    flex: 1;
+}
+
 
 .header,
-.cafe-info {
+.cafe-info,
+.quote {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 20px;
@@ -115,7 +133,14 @@ h3 {
 .affogato,
 .cafeaulait {
     flex-basis: 250px;
-    text-align: center;
+    text-align: justify;
+    text-align-last: left;
+    hyphens: auto;
 }
 
-
+/*Quote part*/
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    padding: 80px;
+}
