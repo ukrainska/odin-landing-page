@@ -16,10 +16,10 @@
     height: 100vh;
     font-family: Quicksand, Arial, sans-serif;
     font-size: 18px;
-    color: #FFF;
 }
 
 .header-part {
+    color: #FFF;
     background-color: #78594E;
     /*background-color: #73554B;*/
     width: 100%;
@@ -30,6 +30,14 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 20px;
+}
+
+.coffee-variety img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding-bottom: 10px;
+    border-radius: 18px;
 }
 
 /*Header*/
@@ -86,4 +94,28 @@ ul {
     border-color: #E1D7D5;
     padding: 15px 30px;
 }
+
+/*Four-pics-layout*/
+h3 {
+    color: #946E65;
+    padding-block: 30px;
+}
+.coffee-variety {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+    color: #78594E;
+    font-weight: 500;
+}
+
+.vietnamese,
+.turkish,
+.affogato,
+.cafeaulait {
+    flex-basis: 250px;
+    text-align: center;
+}
+
 
